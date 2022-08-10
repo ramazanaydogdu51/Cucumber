@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="29.924">
+    <testcase classname="US1006 yanlis sifre ile siteye giris yapilamaz" name="TC10 yanlis kullanici adi ile giris yapilamaz" time="13.559">
+        <system-out>
+            <![CDATA[Given kullanici "HMCUrl" anasayfasinda......................................passed
+Then Log in yazisina tiklar.................................................passed
+And gecersiz username girer.................................................passed
+And gecerli password girer..................................................passed
+And Login butonuna basar....................................................passed
+Then sayfaya giris yapilamadigini kontrol eder..............................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1010 herokuapp Delete testi" name="TC15 herokuapp'dan delete butonu calismali" time="15.951">
+        <system-out>
+            <![CDATA[Given kullanici "herokuappUrl" anasayfasinda................................passed
+And add element butonuna basar..............................................passed
+And kullanici 3 sn bekler...................................................passed
+Then Delete butonu gorunur oluncaya kadar bekler............................passed
+And Delete butonunun gorunur oldugunu test eder.............................passed
+Then Delete butonuna basar..................................................passed
+And Delete butonunun gorunmedigini test eder................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

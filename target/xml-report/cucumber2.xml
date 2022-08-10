@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="23.16">
+    <testcase classname="US1006 yanlis sifre ile siteye giris yapilamaz" name="TC10 yanlis kullanici adi ile giris yapilamaz" time="12.833">
+        <system-out>
+            <![CDATA[Given kullanici "HMCUrl" anasayfasinda......................................passed
+Then Log in yazisina tiklar.................................................passed
+And gecersiz username girer.................................................passed
+And gecerli password girer..................................................passed
+And Login butonuna basar....................................................passed
+Then sayfaya giris yapilamadigini kontrol eder..............................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1011 web tablasundaki istenen sutunu yazdirma" name="TC16 kullanici sutun basligi ile liste alabilmeli" time="9.92">
+        <system-out>
+            <![CDATA[Given kullanici "guruUrl" anasayfasinda.....................................passed
+And kullanici 3 sn bekler...................................................passed
+And "Company", sutunundaki tum degerleri yazdirir...........................passed
+Then sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
